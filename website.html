@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESPONSIVE WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c9c652b69e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav> 
+           <img src="img/logo.png" class="logo" style="height: 200px; width: 200px;">
+           <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#HOBBIES">Hobbies</a></li>
+                <li><a href="#movies">Movie Recommendation</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+           </ul>
+           <i class="fas fa-bars"onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> BEATRIZ CAYETANO</p>
+            <h1>A GLIMPSE OF ME</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ABOUT -->
+<div id="About">
+    <div class="row">
+        <div class="About-col-1">
+            <img src="img/profile.jpg">
+        </div>
+        <div class="About-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p> The Technophile in Me: <br> From an early age, I found myself captivated by the allure of gadgets and computers. 
+                The endless possibilities they offered drew me in like a magnet, and I began exploring the digital realm with boundless enthusiasm. 
+                Embracing technology has become a part of who I am, as I find myself eagerly diving into the latest tech trends and developments.
+                <br>
+                <br>The Code Whisperer: <br> Among the many languages I've encountered, coding is my chosen means of communication with machines. 
+                Whether it's writing elegant lines of Python, crafting dynamic web pages with HTML, or solving complex problems with Java, I relish the challenge of deciphering the language of computers. 
+                Each line of code I write carries the potential to create something extraordinary.
+                
+                <br>
+                <br> The Innovator and Problem Solver: <br> Beyond mastering existing technologies, 
+                I strive to be an innovator and problem solver. I believe that technology holds the key to solving real-world issues and enhancing lives. 
+                My creativity thrives in devising solutions that merge cutting-edge ideas with practicality, envisioning a future where technology creates a positive impact on society. 
+                <br>
+                <br>The Continuous Learner: <br> In the realm of IT, learning is an ongoing journey. New technologies emerge at lightning speed, and I relish the opportunity to embark on a perpetual quest for knowledge. 
+                Whether it's attending workshops, participating in hackathons, or enrolling in online courses, I am committed to staying at the forefront of the ever-evolving IT landscape.
+            </p>
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('Education')">Education</p>
+                <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="Skills">
+                <ul>
+                    <li><span>Programming </span><br>HTMLS, JavaScript, CSS, Python </li>
+                    <li><span>Leadership Skills </span><br>Classroom President since first year</li>
+                    <li><span>Communication Skills </span><br>Good at Public Speaking </li>
+                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+                <ul>
+                    <li><span>2023-Present </span><br>Dalubhasaan ng Lungsod ng Lucena</li>
+                    <li><span>2020-2021</span><br>ARK Technological Institute Education System</li>
+                    <li><span>2018-2019 </span><br>Talipan National High School </li>
+                    <li><span>2014-2015 </span><br>Elementary School </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Achievements">
+                <ul>
+                    <li><span>2017 </span><br>With Honors</li>
+                    <li><span>2019</span><br>With Honors</li>
+                    <li><span>2020 </span><br>With Honors</li>
+                    <li><span>2021</span><br>Best in Technical-Vocational 
+                        <br>Best in Communication Arts
+                        <br>Best in Science
+                        <br>Best in Mathematics
+                        <br>Best in Social Sciences</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  HOBBIES  -->
+<div id="HOBBIES">
+    <div class="container">
+        <h1 class="sub-title"> Hobbies</h1>
+        <div class="hobbies-list">
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2>READING</h2>
+                <p> A constant voltage source is called a DC Voltage with a voltage that varies periodically with time is called an AC voltage. 
+                    Voltage is measured in volts, with one volt being defined as the electrical pressure required to force an </p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>PROGRAMMING</h2>
+                <p> A constant voltage source is called a DC Voltage with a voltage that varies periodically with time is called an AC voltage. 
+                    Voltage is measured in volts, with one volt being defined as the electrical pressure required to force an </p>
+                
+            </div>
+            <div>
+                <i class="fa-solid fa-music"></i>
+                <h2>MUSIC</h2>
+                <p> A constant voltage source is called a DC Voltage with a voltage that varies periodically with time is called an AC voltage. 
+                    Voltage is measured in volts, with one volt being defined as the electrical pressure required to force an </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- MOVIES -->
+<div id="movies">
+    <div class="container">
+        <h1 class="sub-title"> MOVIES</h1>
+        <div class="movie-list">
+            <div class="movie">
+                <img src="img/m1.png">
+                <div class="layer">
+                <h3>The Possession of Hannah Grace</h3>
+                <p>A shocking exorcism spirals out of control, claiming the life of a young woman. Months later, morgue worker 
+                    Megan Reed takes delivery of a disfigured cadaver during the graveyard shift. Locked inside the basement corridors, 
+                    Megan's horrifying visions soon lead her to believe that the body is possessed by a demonic force. 
+                </p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="movie">
+                <img src="img/m2.png">
+                <div class="layer">
+                <h3> SAW X</h3>
+                <p>Hoping for a miraculous cure, John Kramer travels to Mexico for a risky and experimental medical procedure, 
+                    only to discover the entire operation is a scam to defraud the most vulnerable. 
+                    Armed with a newfound purpose, the infamous serial killer uses deranged and ingenious traps to turn the tables on the con artists.
+                
+                </p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            
+            <div class="movie">
+                <img src="img/m3.png">
+                <div class="layer">
+                <h3> A Man Called Otto</h3>
+                <p> When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, 
+                    pregnant woman named Marisol,leading to an unlikely friendship that turns his world upside down.
+                </p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                
+            </div>
+            
+            <div class="movie">
+                <img src="img/m4.png">
+                <div class="layer">
+                <h3> CARGO</h3>
+                <p> Stranded in rural Australia in the aftermath of a violent pandemic, 
+                    an infected father desperately searches for a new home for his infant 
+                    child and a means to protect her from his own changing nature.
+                </p><a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+            
+            <div class="movie">
+                <img src="img/m5.png">
+                <div class="layer">
+                <h3> Parasite </h3>
+                <p>Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.
+                </p><a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+            
+            <div class="movie">
+                <img src="img/m6.png">
+                <div class="layer">
+                <h3> Moving</h3>
+                <p>The story revolves around a group of children living in the modern world with hidden superpowers and 
+                    their parents who have hidden past pains and secrets.Together, they face immense dangers that transcend time
+                    and generations in this superhero action drama.
+                </p><a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+
+            </div>
+            
+            <div class="movie">
+                <img src="img/m7.png">
+                <div class="layer">
+                <h3>Spirited Away</h3>
+                <p> n this animated feature by noted Japanese director Hayao Miyazaki, 10-year-old Chihiro (Rumi Hiiragi) and her parents (Takashi Naitô, Yasuko Sawaguchi) 
+                    stumble upon a seemingly abandoned amusement park.After her mother and father are turned into giant pigs, Chihiro meets the mysterious Haku (Miyu Irino), 
+                    who explains that the park is a resort for supernatural beings who need a break from their time spent in the earthly realm, 
+                    and that she must work there to free herself and her parents.
+                </p><a href="#"><i class="fas fa-external-link-alt"></i></a></div>
+            </div>
+            
+            <div class="movie">
+                <img src="img/m8.png">
+                <div class="layer">
+                <h3> Howl's Moving Castle</h3>
+                <p> Sophie (Emily Mortimer) has an uneventful life at her late father's hat shop, but all that changes when she befriends wizard Howl (Christian Bale), 
+                    who lives in a magical flying castle. However, the evil Witch of Waste (Lauren Bacall) takes issue with their budding relationship and 
+                    casts a spell on young Sophie, which ages her prematurely. Now Howl must use all his magical talents to battle the jealous hag and 
+                     Sophie to her former youth and beauty.
+                </p><a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CONTACT -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>beacayetano@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>09434416228</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/beatriz.cayetano.10/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/btrz_cytn"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/btriz.cytn/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right= "0";
+    }
+
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+</script>
+    
+</body>
+</html>
